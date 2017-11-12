@@ -21,6 +21,10 @@ Include /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf
 
 ## Add virtual host
 
+This will allow subdomains to work by simply adding a directory to /Applications/MAMP/htdocs
+
+For instance test.mysite.farm will point to /Applications/MAMP/htdocs/test/ and mysite.farm will point to /Applications/MAMP/htdocs/
+
 /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf
 
 ```
